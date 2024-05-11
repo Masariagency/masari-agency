@@ -1,0 +1,97 @@
+.site-logo-container {
+    --logo-max-height: 55px !important;
+}
+
+.site-branding {
+    --logo-shrink-height: 55px !important;
+}
+
+.pricing {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.pricing a  {
+    width: 30%;
+}
+
+.elementor-element-1e81dd4 {
+    display: contents !important;
+}
+
+.bdt-ep-review-card-carousel-content {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+    width: 32%;
+}
+
+.review-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.bdt-ep-review-card-carousel-content img {
+    max-width: 120px;
+    margin-bottom: 16px;
+}
+
+
+.ct-panel {
+    visibility: visible;
+    opacity: 1;
+}
+
+.elementor-element-1e81dd4 .e-con-inner {
+    align-items: center !important;
+}
+
+
+
+.team .elementor-widget-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.team img {
+   border-radius: 50%;
+   height: 200px;
+   width: 200px;
+   object-fit: cover;
+}
+
+.team h4 {
+    margin: 10px 0;
+}
+
+
+
+@media screen and (max-width: 700px ) {
+    .pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing a  {
+        width: 85%;
+    }
+    .bdt-ep-review-card-carousel-content {
+        width: 100%;
+    }
+
+    .team-card {
+        width: 45%;
+    }
+    .team img {
+        height: 150px;
+        width: 150px;
+     }  
+     /* .team .elementor-widget-container {
+        gap: 30px;
+    }        */
+    
+    
+}
