@@ -83,11 +83,11 @@
     }
 
     .team-card {
-        width: 45%;
+        width: 80%;
     }
     .team img {
-        height: 150px;
-        width: 150px;
+        height: 250px;
+        width: 250px;
      }  
      /* .team .elementor-widget-container {
         gap: 30px;
